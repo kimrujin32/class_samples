@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/rh_plus_7_axis_robot_arm/src/robotarm_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface
+[0.017s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.107s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.112s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.129s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.131s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.134s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.270s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.277s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.289s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.299s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.358s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.413s] -- Configuring done
+[0.417s] [31mCMake Error at CMakeLists.txt:24 (add_library):
+[0.417s]   Target "robotarm_hardware_interface" links to target
+[0.417s]   "PkgConfig::hidapi-hidraw" but the target was not found.  Perhaps a
+[0.417s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[0.417s]   is missing?
+[0.417s] 
+[0.417s] [0m
+[0.452s] -- Generating done
+[0.454s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.463s] Invoked command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/rh_plus_7_axis_robot_arm/src/robotarm_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface

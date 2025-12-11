@@ -1,0 +1,9 @@
+source;share/rh_plus_7_axis_robot_arm_description/hook/pythonpath.ps1
+source;share/rh_plus_7_axis_robot_arm_description/hook/pythonpath.dsv
+source;share/rh_plus_7_axis_robot_arm_description/hook/pythonpath.sh
+source;share/rh_plus_7_axis_robot_arm_description/hook/ament_prefix_path.ps1
+source;share/rh_plus_7_axis_robot_arm_description/hook/ament_prefix_path.dsv
+source;share/rh_plus_7_axis_robot_arm_description/hook/ament_prefix_path.sh
+source;../../build/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/hook/pythonpath_develop.ps1
+source;../../build/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/hook/pythonpath_develop.dsv
+source;../../build/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/hook/pythonpath_develop.sh

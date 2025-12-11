@@ -1,0 +1,28 @@
+[0.710s] Invoking command in '/home/robot/restaurant_ws/build/cowork_robot': PYTHONPATH=/home/robot/restaurant_ws/build/cowork_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/restaurant_ws/install/cowork_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robot/restaurant_ws/build/cowork_robot/build --no-deps symlink_data
+[0.922s] running develop
+[1.035s] running egg_info
+[1.035s] creating cowork_robot.egg-info
+[1.035s] writing cowork_robot.egg-info/PKG-INFO
+[1.035s] writing dependency_links to cowork_robot.egg-info/dependency_links.txt
+[1.036s] writing entry points to cowork_robot.egg-info/entry_points.txt
+[1.036s] writing requirements to cowork_robot.egg-info/requires.txt
+[1.036s] writing top-level names to cowork_robot.egg-info/top_level.txt
+[1.036s] writing manifest file 'cowork_robot.egg-info/SOURCES.txt'
+[1.039s] reading manifest file 'cowork_robot.egg-info/SOURCES.txt'
+[1.040s] writing manifest file 'cowork_robot.egg-info/SOURCES.txt'
+[1.042s] running build_ext
+[1.042s] Creating /home/robot/restaurant_ws/install/cowork_robot/lib/python3.10/site-packages/cowork-robot.egg-link (link to .)
+[1.043s] Installing publish_topic script to /home/robot/restaurant_ws/install/cowork_robot/lib/cowork_robot
+[1.043s] Installing spawn_one script to /home/robot/restaurant_ws/install/cowork_robot/lib/cowork_robot
+[1.043s] Installing two_turtlebot3s script to /home/robot/restaurant_ws/install/cowork_robot/lib/cowork_robot
+[1.044s] 
+[1.044s] Installed /home/robot/restaurant_ws/build/cowork_robot
+[1.044s] running symlink_data
+[1.044s] creating /home/robot/restaurant_ws/install/cowork_robot/share/ament_index
+[1.044s] creating /home/robot/restaurant_ws/install/cowork_robot/share/ament_index/resource_index
+[1.044s] creating /home/robot/restaurant_ws/install/cowork_robot/share/ament_index/resource_index/packages
+[1.044s] symbolically linking /home/robot/restaurant_ws/build/cowork_robot/resource/cowork_robot -> /home/robot/restaurant_ws/install/cowork_robot/share/ament_index/resource_index/packages
+[1.044s] symbolically linking /home/robot/restaurant_ws/build/cowork_robot/package.xml -> /home/robot/restaurant_ws/install/cowork_robot/share/cowork_robot
+[1.044s] creating /home/robot/restaurant_ws/install/cowork_robot/share/cowork_robot/launch
+[1.045s] creating /home/robot/restaurant_ws/install/cowork_robot/share/cowork_robot/ui
+[1.070s] Invoked command in '/home/robot/restaurant_ws/build/cowork_robot' returned '0': PYTHONPATH=/home/robot/restaurant_ws/build/cowork_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/restaurant_ws/install/cowork_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robot/restaurant_ws/build/cowork_robot/build --no-deps symlink_data

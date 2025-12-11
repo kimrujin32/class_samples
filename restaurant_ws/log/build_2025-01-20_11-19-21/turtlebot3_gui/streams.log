@@ -1,0 +1,53 @@
+[0.703s] Invoking command in '/home/robot/restaurant_ws/build/turtlebot3_gui': PYTHONPATH=/home/robot/restaurant_ws/build/turtlebot3_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/restaurant_ws/install/turtlebot3_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robot/restaurant_ws/build/turtlebot3_gui/build --no-deps symlink_data
+[0.941s] running develop
+[1.063s] running egg_info
+[1.064s] creating turtlebot3_gui.egg-info
+[1.064s] writing turtlebot3_gui.egg-info/PKG-INFO
+[1.064s] writing dependency_links to turtlebot3_gui.egg-info/dependency_links.txt
+[1.064s] writing entry points to turtlebot3_gui.egg-info/entry_points.txt
+[1.064s] writing requirements to turtlebot3_gui.egg-info/requires.txt
+[1.065s] writing top-level names to turtlebot3_gui.egg-info/top_level.txt
+[1.065s] writing manifest file 'turtlebot3_gui.egg-info/SOURCES.txt'
+[1.065s] reading manifest file 'turtlebot3_gui.egg-info/SOURCES.txt'
+[1.066s] writing manifest file 'turtlebot3_gui.egg-info/SOURCES.txt'
+[1.067s] running build_ext
+[1.067s] Creating /home/robot/restaurant_ws/install/turtlebot3_gui/lib/python3.10/site-packages/turtlebot3-gui.egg-link (link to .)
+[1.067s] Installing action_client script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.067s] Installing action_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.067s] Installing delivery script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.068s] Installing initpose_gui script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.068s] Installing menu_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.068s] Installing menu_service script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.068s] Installing nav2goal_gui script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.068s] Installing nav_client script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.069s] Installing nav_goal script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.069s] Installing nav_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing pub_topic script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing send_goal script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing send_goal_wait script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing service_client script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing service_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing sqlite_gui script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing sub_topic script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing topic_pub script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing topic_sub script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing topic_sub_qt script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing turtlebot3_gui3 script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing turtlebot3_move script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] Installing turtlebot3_point script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[1.070s] 
+[1.070s] Installed /home/robot/restaurant_ws/build/turtlebot3_gui
+[1.070s] running symlink_data
+[1.070s] creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index
+[1.070s] creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index/resource_index
+[1.070s] creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index/resource_index/packages
+[1.070s] symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/resource/turtlebot3_gui -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index/resource_index/packages
+[1.070s] symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/package.xml -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui
+[1.070s] creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+[1.070s] symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/service_client.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+[1.071s] symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/nav_goal.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+[1.071s] symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/service_master.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+[1.071s] symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/service_server.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+[1.071s] creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/ui
+[1.071s] symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/ui/menu_board.ui -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/ui
+[1.091s] Invoked command in '/home/robot/restaurant_ws/build/turtlebot3_gui' returned '0': PYTHONPATH=/home/robot/restaurant_ws/build/turtlebot3_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/restaurant_ws/install/turtlebot3_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robot/restaurant_ws/build/turtlebot3_gui/build --no-deps symlink_data

@@ -1,0 +1,35 @@
+import os
+from ament_index_python.packages import get_package_share_directory
+from launch import LaunchDescription
+from launch.substitutions import LaunchConfiguration
+from launch.actions import DeclareLaunchArgument
+from launch_ros.actions import Node
+import xacro
+
+def generate_launch_description():
+    #use_sim_time = LaunchConfiguration("use_sim_time")
+
+    #pkg_path = os.path.join(get_package_share_directory("turtlebot3_gui"))
+    #xacro_file = os.path.join(pkg_path, "urdf", "robot_1.xacro")
+    #robot_description = xacro.process_file(xacro_file)
+    #params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}
+
+    return LaunchDescription(
+        [
+            DeclareLaunchArgument(
+                "use_sim_time", default_value="true", description="use sim time"
+            ),
+            Node(
+                package="turtlebot3_gui",
+                executable="nav_goal",
+                output="screen",
+                #parameters=[params],
+            ),
+            Node(
+                package="turtlebot3_gui",
+                executable="turtlebot3_point",
+                output="screen",
+                #parameters=[params],
+            ),            
+        ]
+    )

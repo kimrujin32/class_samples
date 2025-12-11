@@ -1,0 +1,5 @@
+[console_scripts]
+publish_topic = cowork_robot.publish_topic:main
+spawn_one = cowork_robot.spawn_one:main
+two_turtlebot3s = cowork_robot.two_turtlebot3s:main
+

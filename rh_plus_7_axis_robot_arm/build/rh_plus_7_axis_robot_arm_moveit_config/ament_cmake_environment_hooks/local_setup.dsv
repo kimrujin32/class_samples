@@ -1,0 +1,2 @@
+source;share/rh_plus_7_axis_robot_arm_moveit_config/environment/ament_prefix_path.sh
+source;share/rh_plus_7_axis_robot_arm_moveit_config/environment/path.sh

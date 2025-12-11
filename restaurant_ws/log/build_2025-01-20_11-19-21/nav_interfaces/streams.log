@@ -1,0 +1,242 @@
+[0.216s] Invoking command in '/home/robot/restaurant_ws/build/nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/roarm_ws_em0/install/ros2web_widgets:/home/robot/roarm_ws_em0/install/ros2web_example_py:/home/robot/roarm_ws_em0/install/roarm_web_app:/home/robot/roarm_ws_em0/install/ros2web_app:/home/robot/roarm_ws_em0/install/ros2web:/home/robot/roarm_ws_em0/install/roarm_driver:/home/robot/roarm_ws_em0/install/launch_api:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/restaurant_ws/src/nav_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/restaurant_ws/install/nav_interfaces
+[0.264s] -- The C compiler identification is GNU 11.4.0
+[0.309s] -- The CXX compiler identification is GNU 11.4.0
+[0.317s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.397s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.478s] -- Detecting CXX compiler ABI info - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.484s] -- Detecting CXX compile features - done
+[0.487s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.674s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.737s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.792s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.808s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.850s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.884s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.938s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.942s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.034s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.065s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.113s] -- Looking for pthread.h
+[1.183s] -- Looking for pthread.h - found
+[1.183s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.258s] -- Found Threads: TRUE  
+[1.301s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.320s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.574s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.188s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.215s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.215s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.215s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.215s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.238s] -- Found PythonExtra: .so  
+[2.307s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.332s] -- Added test 'lint_cmake' to check CMake code style
+[2.334s] -- Added test 'xmllint' to check XML markup files
+[2.340s] -- Configuring done
+[2.365s] -- Generating done
+[2.367s] -- Build files have been written to: /home/robot/restaurant_ws/build/nav_interfaces
+[2.376s] Invoked command in '/home/robot/restaurant_ws/build/nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/roarm_ws_em0/install/ros2web_widgets:/home/robot/roarm_ws_em0/install/ros2web_example_py:/home/robot/roarm_ws_em0/install/roarm_web_app:/home/robot/roarm_ws_em0/install/ros2web_app:/home/robot/roarm_ws_em0/install/ros2web:/home/robot/roarm_ws_em0/install/roarm_driver:/home/robot/roarm_ws_em0/install/launch_api:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/restaurant_ws/src/nav_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/restaurant_ws/install/nav_interfaces
+[2.377s] Invoking command in '/home/robot/restaurant_ws/build/nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/roarm_ws_em0/install/ros2web_widgets:/home/robot/roarm_ws_em0/install/ros2web_example_py:/home/robot/roarm_ws_em0/install/roarm_web_app:/home/robot/roarm_ws_em0/install/ros2web_app:/home/robot/roarm_ws_em0/install/ros2web:/home/robot/roarm_ws_em0/install/roarm_driver:/home/robot/roarm_ws_em0/install/launch_api:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --build /home/robot/restaurant_ws/build/nav_interfaces -- -j16 -l16
+[2.434s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.442s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.456s] [  5%] Built target ament_cmake_python_symlink_nav_interfaces
+[2.649s] running egg_info
+[2.650s] creating nav_interfaces.egg-info
+[2.650s] writing nav_interfaces.egg-info/PKG-INFO
+[2.650s] writing dependency_links to nav_interfaces.egg-info/dependency_links.txt
+[2.650s] writing top-level names to nav_interfaces.egg-info/top_level.txt
+[2.650s] writing manifest file 'nav_interfaces.egg-info/SOURCES.txt'
+[2.651s] reading manifest file 'nav_interfaces.egg-info/SOURCES.txt'
+[2.652s] writing manifest file 'nav_interfaces.egg-info/SOURCES.txt'
+[2.677s] [  5%] Built target ament_cmake_python_build_nav_interfaces_egg
+[2.792s] [  5%] Built target nav_interfaces__cpp
+[2.801s] [ 10%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nav_interfaces/srv/detail/order_food__functions.c.o[0m
+[2.801s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.804s] [ 12%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nav_interfaces/action/detail/navigate__functions.c.o[0m
+[2.805s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.806s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.918s] [ 20%] [32m[1mLinking C shared library libnav_interfaces__rosidl_generator_c.so[0m
+[2.962s] [ 20%] Built target nav_interfaces__rosidl_generator_c
+[2.971s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.973s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.974s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.103s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_interfaces/action/detail/navigate__type_support.cpp.o[0m
+[3.104s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_interfaces/srv/detail/order_food__type_support.cpp.o[0m
+[3.235s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_interfaces/action/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[3.237s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_interfaces/srv/detail/dds_fastrtps/order_food__type_support.cpp.o[0m
+[3.242s] [ 41%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_interfaces/srv/order_food__type_support.cpp.o[0m
+[3.242s] [ 43%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_interfaces/action/navigate__type_support.cpp.o[0m
+[3.278s] [ 46%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_interfaces/srv/detail/order_food__type_support.c.o[0m
+[3.282s] [ 48%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_interfaces/action/detail/navigate__type_support.c.o[0m
+[3.304s] [ 51%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_c.so[0m
+[3.305s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_interfaces/srv/order_food__type_support.cpp.o[0m
+[3.307s] [ 56%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_interfaces/action/navigate__type_support.cpp.o[0m
+[3.328s] [ 58%] [32m[1mLinking C shared library libnav_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.345s] [ 58%] Built target nav_interfaces__rosidl_typesupport_c
+[3.350s] [ 58%] Built target nav_interfaces__rosidl_typesupport_introspection_c
+[3.577s] [ 61%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.595s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_interfaces/srv/detail/order_food__type_support_c.cpp.o[0m
+[3.596s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_interfaces/action/detail/navigate__type_support_c.cpp.o[0m
+[3.622s] [ 69%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_cpp.so[0m
+[3.641s] [ 69%] Built target nav_interfaces__rosidl_typesupport_introspection_cpp
+[3.654s] [ 69%] Built target nav_interfaces__rosidl_typesupport_cpp
+[3.774s] [ 71%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.847s] [ 74%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.865s] [ 74%] Built target nav_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.907s] [ 74%] Built target nav_interfaces__rosidl_typesupport_fastrtps_c
+[3.941s] [ 74%] Built target nav_interfaces
+[3.972s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.557s] [ 76%] Built target nav_interfaces__py
+[4.587s] [ 79%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nav_interfaces/action/_navigate_s.c.o[0m
+[4.587s] [ 82%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nav_interfaces/srv/_order_food_s.c.o[0m
+[4.698s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/libnav_interfaces__rosidl_generator_py.so[0m
+[4.743s] [ 84%] Built target nav_interfaces__rosidl_generator_py
+[4.768s] [ 87%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.768s] [ 89%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.769s] [ 92%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.852s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.862s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.864s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.886s] [100%] Built target nav_interfaces__rosidl_typesupport_c__pyext
+[4.898s] [100%] Built target nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.900s] [100%] Built target nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.909s] Invoked command in '/home/robot/restaurant_ws/build/nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/roarm_ws_em0/install/ros2web_widgets:/home/robot/roarm_ws_em0/install/ros2web_example_py:/home/robot/roarm_ws_em0/install/roarm_web_app:/home/robot/roarm_ws_em0/install/ros2web_app:/home/robot/roarm_ws_em0/install/ros2web:/home/robot/roarm_ws_em0/install/roarm_driver:/home/robot/roarm_ws_em0/install/launch_api:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --build /home/robot/restaurant_ws/build/nav_interfaces -- -j16 -l16
+[5.032s] Invoking command in '/home/robot/restaurant_ws/build/nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/roarm_ws_em0/install/ros2web_widgets:/home/robot/roarm_ws_em0/install/ros2web_example_py:/home/robot/roarm_ws_em0/install/roarm_web_app:/home/robot/roarm_ws_em0/install/ros2web_app:/home/robot/roarm_ws_em0/install/ros2web:/home/robot/roarm_ws_em0/install/roarm_driver:/home/robot/roarm_ws_em0/install/launch_api:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --install /home/robot/restaurant_ws/build/nav_interfaces
+[5.038s] -- Install configuration: ""
+[5.039s] -- Execute custom install script
+[5.039s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/nav_interfaces
+[5.048s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__functions.h
+[5.060s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__struct.h
+[5.070s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__type_support.h
+[5.083s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/navigate.h
+[5.098s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.108s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__functions.h
+[5.123s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__struct.h
+[5.137s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__type_support.h
+[5.150s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/order_food.h
+[5.167s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/library_path.sh
+[5.181s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/library_path.dsv
+[5.196s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[5.208s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.223s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__rosidl_typesupport_fastrtps_c.h
+[5.233s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[5.247s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.263s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__rosidl_typesupport_introspection_c.h
+[5.275s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__builder.hpp
+[5.290s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__struct.hpp
+[5.302s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__traits.hpp
+[5.317s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/navigate.hpp
+[5.330s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__builder.hpp
+[5.343s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__struct.hpp
+[5.357s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__traits.hpp
+[5.369s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/order_food.hpp
+[5.383s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[5.396s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.408s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__rosidl_typesupport_fastrtps_cpp.hpp
+[5.420s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[5.433s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/srv/detail/order_food__rosidl_typesupport_introspection_cpp.hpp
+[5.446s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/pythonpath.sh
+[5.458s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/pythonpath.dsv
+[5.473s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.486s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.494s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.509s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.522s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/__init__.py
+[5.535s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[5.549s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.564s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.580s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/action/__init__.py
+[5.593s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/action/_navigate.py
+[5.604s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/action/_navigate_s.c
+[5.615s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/libnav_interfaces__rosidl_generator_py.so
+[5.629s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.646s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.660s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.674s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/srv/__init__.py
+[5.685s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/srv/_order_food.py
+[5.697s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/srv/_order_food_s.c
+[5.710s] -- Up-to-date symlink: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.710s] -- Up-to-date symlink: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.711s] -- Up-to-date symlink: /home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.711s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/action/Navigate.idl
+[5.723s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/srv/OrderFood.idl
+[5.736s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/action/Navigate.action
+[5.748s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/srv/OrderFood.srv
+[5.761s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/srv/OrderFood_Request.msg
+[5.775s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/srv/OrderFood_Response.msg
+[5.790s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/ament_index/resource_index/package_run_dependencies/nav_interfaces
+[5.804s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/ament_index/resource_index/parent_prefix_path/nav_interfaces
+[5.817s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/ament_prefix_path.sh
+[5.832s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/ament_prefix_path.dsv
+[5.843s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/path.sh
+[5.854s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/environment/path.dsv
+[5.868s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/local_setup.bash
+[5.877s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/local_setup.sh
+[5.888s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/local_setup.zsh
+[5.902s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/local_setup.dsv
+[5.914s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/package.dsv
+[5.927s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/ament_index/resource_index/packages/nav_interfaces
+[5.943s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.958s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.971s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.985s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.999s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.012s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.023s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.033s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfacesConfig.cmake
+[6.047s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfacesConfig-version.cmake
+[6.064s] -- Symlinking: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/package.xml
+[6.080s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_c.so
+[6.080s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_c.so" to ""
+[6.080s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.080s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.080s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_c.so
+[6.081s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.081s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_c.so
+[6.081s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_c.so" to ""
+[6.081s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.081s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.081s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.081s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.081s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_cpp.so
+[6.081s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.128s] Listing '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces'...
+[6.128s] Compiling '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/__init__.py'...
+[6.128s] Listing '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/action'...
+[6.128s] Compiling '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/action/__init__.py'...
+[6.128s] Compiling '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/action/_navigate.py'...
+[6.128s] Listing '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/srv'...
+[6.128s] Compiling '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/srv/__init__.py'...
+[6.128s] Compiling '/home/robot/restaurant_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/srv/_order_food.py'...
+[6.131s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_py.so
+[6.131s] -- Set runtime path of "/home/robot/restaurant_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_py.so" to ""
+[6.131s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cppExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cppExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_pyExport.cmake
+[6.132s] -- Installing: /home/robot/restaurant_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.134s] Invoked command in '/home/robot/restaurant_ws/build/nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/roarm_ws_em0/install/ros2web_widgets:/home/robot/roarm_ws_em0/install/ros2web_example_py:/home/robot/roarm_ws_em0/install/roarm_web_app:/home/robot/roarm_ws_em0/install/ros2web_app:/home/robot/roarm_ws_em0/install/ros2web:/home/robot/roarm_ws_em0/install/roarm_driver:/home/robot/roarm_ws_em0/install/launch_api:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --install /home/robot/restaurant_ws/build/nav_interfaces

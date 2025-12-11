@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/rh_plus_7_axis_robot_arm/src/robotarm_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.479s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.505s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.538s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.542s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.548s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.715s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.718s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.737s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.800s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.818s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.820s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.828s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.840s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.850s] -- Looking for pthread.h
+[0.925s] -- Looking for pthread.h - found
+[0.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.016s] -- Found Threads: TRUE  
+[1.052s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.053s] -- Checking for module 'hidapi-hidraw'
+[1.056s] --   No package 'hidapi-hidraw' found
+[1.056s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[1.056s]   A required package was not found
+[1.056s] Call Stack (most recent call first):
+[1.056s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[1.056s]   CMakeLists.txt:15 (pkg_check_modules)
+[1.056s] 
+[1.056s] [0m
+[1.056s] -- Configuring incomplete, errors occurred!
+[1.056s] See also "/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface/CMakeFiles/CMakeOutput.log".
+[1.065s] Invoked command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/rh_plus_7_axis_robot_arm/src/robotarm_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface

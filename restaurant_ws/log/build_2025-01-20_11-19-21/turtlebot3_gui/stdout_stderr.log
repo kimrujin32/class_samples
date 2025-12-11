@@ -1,0 +1,51 @@
+running develop
+running egg_info
+creating turtlebot3_gui.egg-info
+writing turtlebot3_gui.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_gui.egg-info/dependency_links.txt
+writing entry points to turtlebot3_gui.egg-info/entry_points.txt
+writing requirements to turtlebot3_gui.egg-info/requires.txt
+writing top-level names to turtlebot3_gui.egg-info/top_level.txt
+writing manifest file 'turtlebot3_gui.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot3_gui.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_gui.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robot/restaurant_ws/install/turtlebot3_gui/lib/python3.10/site-packages/turtlebot3-gui.egg-link (link to .)
+Installing action_client script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing action_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing delivery script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing initpose_gui script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing menu_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing menu_service script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing nav2goal_gui script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing nav_client script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing nav_goal script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing nav_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing pub_topic script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing send_goal script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing send_goal_wait script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing service_client script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing service_server script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing sqlite_gui script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing sub_topic script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing topic_pub script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing topic_sub script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing topic_sub_qt script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing turtlebot3_gui3 script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing turtlebot3_move script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+Installing turtlebot3_point script to /home/robot/restaurant_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+
+Installed /home/robot/restaurant_ws/build/turtlebot3_gui
+running symlink_data
+creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index
+creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index/resource_index
+creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index/resource_index/packages
+symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/resource/turtlebot3_gui -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/ament_index/resource_index/packages
+symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/package.xml -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui
+creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/service_client.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/nav_goal.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/service_master.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/launch/service_server.launch.py -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/launch
+creating /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/ui
+symbolically linking /home/robot/restaurant_ws/build/turtlebot3_gui/ui/menu_board.ui -> /home/robot/restaurant_ws/install/turtlebot3_gui/share/turtlebot3_gui/ui

@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating cowork_robot.egg-info
+writing cowork_robot.egg-info/PKG-INFO
+writing dependency_links to cowork_robot.egg-info/dependency_links.txt
+writing entry points to cowork_robot.egg-info/entry_points.txt
+writing requirements to cowork_robot.egg-info/requires.txt
+writing top-level names to cowork_robot.egg-info/top_level.txt
+writing manifest file 'cowork_robot.egg-info/SOURCES.txt'
+reading manifest file 'cowork_robot.egg-info/SOURCES.txt'
+writing manifest file 'cowork_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robot/restaurant_ws/install/cowork_robot/lib/python3.10/site-packages/cowork-robot.egg-link (link to .)
+Installing publish_topic script to /home/robot/restaurant_ws/install/cowork_robot/lib/cowork_robot
+Installing spawn_one script to /home/robot/restaurant_ws/install/cowork_robot/lib/cowork_robot
+Installing two_turtlebot3s script to /home/robot/restaurant_ws/install/cowork_robot/lib/cowork_robot
+
+Installed /home/robot/restaurant_ws/build/cowork_robot
+running symlink_data
+creating /home/robot/restaurant_ws/install/cowork_robot/share/ament_index
+creating /home/robot/restaurant_ws/install/cowork_robot/share/ament_index/resource_index
+creating /home/robot/restaurant_ws/install/cowork_robot/share/ament_index/resource_index/packages
+symbolically linking /home/robot/restaurant_ws/build/cowork_robot/resource/cowork_robot -> /home/robot/restaurant_ws/install/cowork_robot/share/ament_index/resource_index/packages
+symbolically linking /home/robot/restaurant_ws/build/cowork_robot/package.xml -> /home/robot/restaurant_ws/install/cowork_robot/share/cowork_robot
+creating /home/robot/restaurant_ws/install/cowork_robot/share/cowork_robot/launch
+creating /home/robot/restaurant_ws/install/cowork_robot/share/cowork_robot/ui

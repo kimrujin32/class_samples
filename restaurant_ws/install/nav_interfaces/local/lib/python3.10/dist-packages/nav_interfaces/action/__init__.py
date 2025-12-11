@@ -1,0 +1,1 @@
+/home/robot/restaurant_ws/build/nav_interfaces/rosidl_generator_py/nav_interfaces/action/__init__.py

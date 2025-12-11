@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from nav_interfaces/action/Navigate.action
+// generated code does not contain a copyright notice
+
+
+module nav_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Navigate_Goal {
+      @verbatim (language="comment", text=
+        "Target location name")
+      string location;
+
+      @verbatim (language="comment", text=
+        "Time to wait at location in seconds")
+      float wait_time;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Navigate_Result {
+      boolean success;
+
+      string message;
+
+      string final_location;
+
+      float total_time;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Navigate_Feedback {
+      string current_state;
+
+      float time_elapsed;
+
+      string current_location;
+    };
+  };
+};

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nav_interfaces/srv/OrderFood.srv
+// generated code does not contain a copyright notice
+
+
+module nav_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "In your ROS2 workspace: custom_interfaces/srv/OrderFood.srv")
+    struct OrderFood_Request {
+      sequence<string> items;
+    };
+    struct OrderFood_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

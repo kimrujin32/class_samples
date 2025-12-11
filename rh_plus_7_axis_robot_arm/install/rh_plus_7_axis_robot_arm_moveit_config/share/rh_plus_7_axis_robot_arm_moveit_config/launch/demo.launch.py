@@ -1,0 +1,1 @@
+/home/robot/rh_plus_7_axis_robot_arm/src/rh_plus_7_axis_robot_arm_moveit_config/launch/demo.launch.py

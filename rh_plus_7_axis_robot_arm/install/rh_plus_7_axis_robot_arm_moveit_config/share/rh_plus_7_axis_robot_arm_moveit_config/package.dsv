@@ -1,0 +1,8 @@
+source;share/rh_plus_7_axis_robot_arm_moveit_config/hook/cmake_prefix_path.ps1
+source;share/rh_plus_7_axis_robot_arm_moveit_config/hook/cmake_prefix_path.dsv
+source;share/rh_plus_7_axis_robot_arm_moveit_config/hook/cmake_prefix_path.sh
+source;share/rh_plus_7_axis_robot_arm_moveit_config/local_setup.bash
+source;share/rh_plus_7_axis_robot_arm_moveit_config/local_setup.dsv
+source;share/rh_plus_7_axis_robot_arm_moveit_config/local_setup.ps1
+source;share/rh_plus_7_axis_robot_arm_moveit_config/local_setup.sh
+source;share/rh_plus_7_axis_robot_arm_moveit_config/local_setup.zsh

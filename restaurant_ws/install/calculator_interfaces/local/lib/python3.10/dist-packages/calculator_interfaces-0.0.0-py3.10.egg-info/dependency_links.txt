@@ -1,0 +1,1 @@
+/home/robot/restaurant_ws/build/calculator_interfaces/ament_cmake_python/calculator_interfaces/calculator_interfaces.egg-info/dependency_links.txt

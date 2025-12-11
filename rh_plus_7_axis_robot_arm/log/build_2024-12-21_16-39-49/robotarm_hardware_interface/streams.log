@@ -1,0 +1,37 @@
+[0.183s] Invoking command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --build /home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface -- -j16 -l16
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target robotarm_hardware_interface[0m
+[0.238s] [100%] Built target robotarm_hardware_interface
+[0.246s] Invoked command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --build /home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface -- -j16 -l16
+[0.285s] Invoking command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --install /home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface
+[0.290s] -- Install configuration: ""
+[0.290s] -- Execute custom install script
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface//robotarm_hardware.xml
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/lib/robotarm_hardware_interface/librobotarm_hardware_interface.so
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/include/robotarm_hardware_interface/robotarm_hardware_interface/robotarm.hpp
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/include/robotarm_hardware_interface/robotarm_hardware_interface/robotarm_drvr.hpp
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/include/robotarm_hardware_interface/robotarm_hardware_interface/robotarm_serial.hpp
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/include/robotarm_hardware_interface/robotarm_hardware_interface/robotarm_system.hpp
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/include/robotarm_hardware_interface/robotarm_hardware_interface/serial_servo_bus.hpp
+[0.291s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/include/robotarm_hardware_interface/robotarm_hardware_interface/visibility_control.hpp
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/environment/library_path.sh
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/environment/library_path.dsv
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/ament_index/resource_index/package_run_dependencies/robotarm_hardware_interface
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/ament_index/resource_index/parent_prefix_path/robotarm_hardware_interface
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/environment/ament_prefix_path.sh
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/environment/ament_prefix_path.dsv
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/environment/path.sh
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/environment/path.dsv
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/local_setup.bash
+[0.292s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/local_setup.sh
+[0.293s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/local_setup.zsh
+[0.293s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/local_setup.dsv
+[0.293s] -- Symlinking: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/package.dsv
+[0.298s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/ament_index/resource_index/packages/robotarm_hardware_interface
+[0.298s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robotarm_hardware_interface
+[0.299s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.299s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.299s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.299s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/cmake/robotarm_hardware_interfaceConfig.cmake
+[0.299s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/cmake/robotarm_hardware_interfaceConfig-version.cmake
+[0.299s] -- Up-to-date symlink: /home/robot/rh_plus_7_axis_robot_arm/install/robotarm_hardware_interface/share/robotarm_hardware_interface/package.xml
+[0.300s] Invoked command in '/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/four_wheeled_robot_ws/install/four_wheeled_robot:/home/robot/project_ws/install/turtlebot3_gui:/home/robot/project_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake --install /home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface

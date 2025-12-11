@@ -1,0 +1,1 @@
+/home/robot/restaurant_ws/build/nav_interfaces/rosidl_typesupport_introspection_c/nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,6 @@
+{
+  "package_name": "calculator_interfaces",
+  "non_idl_tuples": [
+    "/home/robot/restaurant_ws/src/calculator_interfaces:srv/Calculate.srv"
+  ]
+}

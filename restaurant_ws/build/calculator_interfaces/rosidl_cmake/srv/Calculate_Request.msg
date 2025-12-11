@@ -1,0 +1,5 @@
+# First, create the service interface definition
+# File: calculator_interfaces/srv/Calculate.srv
+float64 a
+float64 b
+string operation    # 'add', 'subtract', 'multiply', 'divide'

@@ -1,0 +1,1 @@
+/home/robot/restaurant_ws/build/nav_interfaces/ament_cmake_core/nav_interfacesConfig.cmake

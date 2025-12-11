@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from calculator_interfaces/srv/Calculate.srv
+// generated code does not contain a copyright notice
+
+
+module calculator_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "First, create the service interface definition" "\n"
+      "File: calculator_interfaces/srv/Calculate.srv")
+    struct Calculate_Request {
+      double a;
+
+      double b;
+
+      @verbatim (language="comment", text=
+        "'add', 'subtract', 'multiply', 'divide'")
+      string operation;
+    };
+    struct Calculate_Response {
+      double result;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

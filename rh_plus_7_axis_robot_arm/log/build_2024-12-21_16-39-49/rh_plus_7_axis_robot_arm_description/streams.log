@@ -1,0 +1,43 @@
+[0.430s] Invoking command in '/home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description': PYTHONPATH=/home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/build --no-deps symlink_data
+[0.608s] running develop
+[0.708s] running egg_info
+[0.708s] creating rh_plus_7_axis_robot_arm_description.egg-info
+[0.708s] writing rh_plus_7_axis_robot_arm_description.egg-info/PKG-INFO
+[0.708s] writing dependency_links to rh_plus_7_axis_robot_arm_description.egg-info/dependency_links.txt
+[0.708s] writing entry points to rh_plus_7_axis_robot_arm_description.egg-info/entry_points.txt
+[0.708s] writing requirements to rh_plus_7_axis_robot_arm_description.egg-info/requires.txt
+[0.708s] writing top-level names to rh_plus_7_axis_robot_arm_description.egg-info/top_level.txt
+[0.709s] writing manifest file 'rh_plus_7_axis_robot_arm_description.egg-info/SOURCES.txt'
+[0.709s] reading manifest file 'rh_plus_7_axis_robot_arm_description.egg-info/SOURCES.txt'
+[0.710s] writing manifest file 'rh_plus_7_axis_robot_arm_description.egg-info/SOURCES.txt'
+[0.711s] running build_ext
+[0.711s] Creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/lib/python3.10/site-packages/rh-plus-7-axis-robot-arm-description.egg-link (link to .)
+[0.711s] 
+[0.711s] Installed /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description
+[0.711s] running symlink_data
+[0.712s] creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/ament_index
+[0.712s] creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/ament_index/resource_index
+[0.712s] creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/ament_index/resource_index/packages
+[0.712s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/resource/rh_plus_7_axis_robot_arm_description -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/ament_index/resource_index/packages
+[0.712s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/package.xml -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description
+[0.712s] creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/launch
+[0.712s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/launch/gazebo.launch.py -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/launch
+[0.712s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/launch/display.launch.py -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/launch
+[0.713s] creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/urdf
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/urdf/rh_plus_7_axis_robot_arm.trans -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/urdf
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/urdf/materials.xacro -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/urdf
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/urdf/rh_plus_7_axis_robot_arm.xacro -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/urdf
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/urdf/rh_plus_7_axis_robot_arm.gazebo -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/urdf
+[0.713s] creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/link2.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/link4.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/link3.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/base_link.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/gripper_hand_left.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/gripper_base.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.713s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/link5.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.714s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/link1.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.714s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/meshes/gripper_hand_right.stl -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/meshes
+[0.714s] creating /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/config
+[0.714s] symbolically linking /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/config/display.rviz -> /home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/share/rh_plus_7_axis_robot_arm_description/config
+[0.730s] Invoked command in '/home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description' returned '0': PYTHONPATH=/home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/rh_plus_7_axis_robot_arm/install/rh_plus_7_axis_robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robot/rh_plus_7_axis_robot_arm/build/rh_plus_7_axis_robot_arm_description/build --no-deps symlink_data

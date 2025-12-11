@@ -1,0 +1,25 @@
+[console_scripts]
+action_client = turtlebot3_gui.action_client:main
+action_server = turtlebot3_gui.action_server:main
+delivery = turtlebot3_gui.delivery:main
+initpose_gui = turtlebot3_gui.initpose_gui:main
+menu_server = turtlebot3_gui.menu_server:main
+menu_service = turtlebot3_gui.menu_service:main
+nav2goal_gui = turtlebot3_gui.nav2goal_gui:main
+nav_client = turtlebot3_gui.nav_client:main
+nav_goal = turtlebot3_gui.nav_goal:main
+nav_server = turtlebot3_gui.nav_server:main
+pub_topic = turtlebot3_gui.pub_topic:main
+send_goal = turtlebot3_gui.send_goal:main
+send_goal_wait = turtlebot3_gui.send_goal_wait:main
+service_client = turtlebot3_gui.service_client:main
+service_server = turtlebot3_gui.service_server:main
+sqlite_gui = turtlebot3_gui.sqlite_gui:main
+sub_topic = turtlebot3_gui.sub_topic:main
+topic_pub = turtlebot3_gui.topic_pub:main
+topic_sub = turtlebot3_gui.topic_sub:main
+topic_sub_qt = turtlebot3_gui.topic_sub_qt:main
+turtlebot3_gui3 = turtlebot3_gui.turtlebot3_gui3:main
+turtlebot3_move = turtlebot3_gui.turtlebot3_move:main
+turtlebot3_point = turtlebot3_gui.turtlebot3_point:main
+

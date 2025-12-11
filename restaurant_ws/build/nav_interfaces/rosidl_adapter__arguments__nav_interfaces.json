@@ -1,0 +1,7 @@
+{
+  "package_name": "nav_interfaces",
+  "non_idl_tuples": [
+    "/home/robot/restaurant_ws/src/nav_interfaces:action/Navigate.action",
+    "/home/robot/restaurant_ws/src/nav_interfaces:srv/OrderFood.srv"
+  ]
+}

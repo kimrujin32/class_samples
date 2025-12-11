@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robot/rh_plus_7_axis_robot_arm/build/robotarm_hardware_interface/librobotarm_hardware_interface.so" "TARGETS" "robotarm_hardware_interface" "DESTINATION" "lib/robotarm_hardware_interface")

@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/robot/multitb_ws/build/turtlebot3_multi_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_autorace:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/conveyor_ws/install/conveyor_sim:/home/robot/openmanipulator_ws/install/fk:/home/robot/restaurant_ws/install/turtlebot3_gui:/home/robot/restaurant_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/multitb_ws/src/turtlebot3_multi_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/multitb_ws/install/turtlebot3_multi_robot
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.321s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.478s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.583s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/assert_file_exists.cmake:20 (message):
+[0.583s]   ament_environment_hooks() the passed hook file
+[0.583s]   '/home/robot/multitb_ws/src/turtlebot3_multi_robot/env-hooks/multi_robot.dsv.in'
+[0.584s]   does not exist
+[0.584s] Call Stack (most recent call first):
+[0.584s]   /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:35 (assert_file_exists)
+[0.584s]   CMakeLists.txt:23 (ament_environment_hooks)
+[0.584s] 
+[0.584s] [0m
+[0.584s] -- Configuring incomplete, errors occurred!
+[0.584s] See also "/home/robot/multitb_ws/build/turtlebot3_multi_robot/CMakeFiles/CMakeOutput.log".
+[0.587s] Invoked command in '/home/robot/multitb_ws/build/turtlebot3_multi_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_autorace:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/conveyor_ws/install/conveyor_sim:/home/robot/openmanipulator_ws/install/fk:/home/robot/restaurant_ws/install/turtlebot3_gui:/home/robot/restaurant_ws/install/cowork_robot:/opt/ros/humble /usr/bin/cmake /home/robot/multitb_ws/src/turtlebot3_multi_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/multitb_ws/install/turtlebot3_multi_robot

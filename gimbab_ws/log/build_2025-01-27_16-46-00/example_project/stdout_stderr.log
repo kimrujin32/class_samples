@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating example_project.egg-info
+writing example_project.egg-info/PKG-INFO
+writing dependency_links to example_project.egg-info/dependency_links.txt
+writing entry points to example_project.egg-info/entry_points.txt
+writing requirements to example_project.egg-info/requires.txt
+writing top-level names to example_project.egg-info/top_level.txt
+writing manifest file 'example_project.egg-info/SOURCES.txt'
+reading manifest file 'example_project.egg-info/SOURCES.txt'
+writing manifest file 'example_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robot/example_ws/install/example_project/lib/python3.10/site-packages/example-project.egg-link (link to .)
+Installing c4 script to /home/robot/example_ws/install/example_project/lib/example_project
+Installing k4 script to /home/robot/example_ws/install/example_project/lib/example_project
+
+Installed /home/robot/example_ws/build/example_project
+running symlink_data
+creating /home/robot/example_ws/install/example_project/share/ament_index
+creating /home/robot/example_ws/install/example_project/share/ament_index/resource_index
+creating /home/robot/example_ws/install/example_project/share/ament_index/resource_index/packages
+symbolically linking /home/robot/example_ws/build/example_project/resource/example_project -> /home/robot/example_ws/install/example_project/share/ament_index/resource_index/packages
+symbolically linking /home/robot/example_ws/build/example_project/package.xml -> /home/robot/example_ws/install/example_project/share/example_project
+creating /home/robot/example_ws/install/example_project/share/example_project/manu_images
+symbolically linking /home/robot/example_ws/build/example_project/manu_images/KIMBAB.jpg -> /home/robot/example_ws/install/example_project/share/example_project/manu_images
+creating /home/robot/example_ws/install/example_project/share/example_project/launch
+symbolically linking /home/robot/example_ws/build/example_project/launch/example.launch.py -> /home/robot/example_ws/install/example_project/share/example_project/launch

@@ -1,0 +1,29 @@
+[0.514s] Invoking command in '/home/robot/example_ws/build/example_project': PYTHONPATH=/home/robot/example_ws/build/example_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/example_ws/install/example_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/example_ws/build/example_project/build --no-deps symlink_data
+[0.730s] running develop
+[0.849s] running egg_info
+[0.849s] creating example_project.egg-info
+[0.850s] writing example_project.egg-info/PKG-INFO
+[0.850s] writing dependency_links to example_project.egg-info/dependency_links.txt
+[0.850s] writing entry points to example_project.egg-info/entry_points.txt
+[0.850s] writing requirements to example_project.egg-info/requires.txt
+[0.850s] writing top-level names to example_project.egg-info/top_level.txt
+[0.850s] writing manifest file 'example_project.egg-info/SOURCES.txt'
+[0.851s] reading manifest file 'example_project.egg-info/SOURCES.txt'
+[0.852s] writing manifest file 'example_project.egg-info/SOURCES.txt'
+[0.853s] running build_ext
+[0.854s] Creating /home/robot/example_ws/install/example_project/lib/python3.10/site-packages/example-project.egg-link (link to .)
+[0.854s] Installing c4 script to /home/robot/example_ws/install/example_project/lib/example_project
+[0.854s] Installing k4 script to /home/robot/example_ws/install/example_project/lib/example_project
+[0.854s] 
+[0.854s] Installed /home/robot/example_ws/build/example_project
+[0.855s] running symlink_data
+[0.855s] creating /home/robot/example_ws/install/example_project/share/ament_index
+[0.855s] creating /home/robot/example_ws/install/example_project/share/ament_index/resource_index
+[0.855s] creating /home/robot/example_ws/install/example_project/share/ament_index/resource_index/packages
+[0.855s] symbolically linking /home/robot/example_ws/build/example_project/resource/example_project -> /home/robot/example_ws/install/example_project/share/ament_index/resource_index/packages
+[0.855s] symbolically linking /home/robot/example_ws/build/example_project/package.xml -> /home/robot/example_ws/install/example_project/share/example_project
+[0.855s] creating /home/robot/example_ws/install/example_project/share/example_project/manu_images
+[0.855s] symbolically linking /home/robot/example_ws/build/example_project/manu_images/KIMBAB.jpg -> /home/robot/example_ws/install/example_project/share/example_project/manu_images
+[0.855s] creating /home/robot/example_ws/install/example_project/share/example_project/launch
+[0.855s] symbolically linking /home/robot/example_ws/build/example_project/launch/example.launch.py -> /home/robot/example_ws/install/example_project/share/example_project/launch
+[0.876s] Invoked command in '/home/robot/example_ws/build/example_project' returned '0': PYTHONPATH=/home/robot/example_ws/build/example_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/example_ws/install/example_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/example_ws/build/example_project/build --no-deps symlink_data
