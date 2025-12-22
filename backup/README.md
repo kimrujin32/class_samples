@@ -17,6 +17,9 @@ Doosan 로봇을 이용한 큐브 집기 및 옮기기 작업입니다.
 
 ### 📂 자산 파일 (Asset)
 - **USD 경로**: `xyz/usd/pick_test_flatten`
+<p align="center">
+  <img src="./img/pick_test_flatten.png" width="80%">
+</p>
 
 ### 🚀 실행 방법 (Execution)
 ```bash
@@ -37,6 +40,9 @@ ros2 run dsr_example pick_and_place
 ### 📂 자산 파일 (Asset)
 
 * **USD 경로**: `xyz/usd/mock_robot_key`
+<p align="center">
+  <img src="./img/mock_robot.png" width="80%">
+</p>
 
 ### 🎮 조작 방법 (Controls)
 
@@ -51,6 +57,10 @@ ros2 run dsr_example pick_and_place
 ### 📂 환경 설정
 
 * **USD 경로**: `/home/robot/xyz/usd/1031_flattened.usd`
+<p align="center">
+  <img src="./img/1031_flattened.png" width="80%">
+</p>
+
 * **Task**: `Isaac-Franka-Cabinet-Direct-v0`
 
 ### 🧠 훈련 실행
@@ -65,6 +75,10 @@ ros2 run dsr_example pick_and_place
 ## 4. 강화학습: E0509 Random Grasp (RL - E0509)
 
 Doosan E0509 로봇을 이용한 무작위 물체 집기(Random Grasp) 강화학습입니다.
+
+<p align="center">
+  <img src="./img/e0509_random_grasp.png" width="80%">
+</p>
 
 ### ⚙️ 사전 설정 (Prerequisites)
 
@@ -107,7 +121,14 @@ python3 scripts/reinforcement_learning/rsl_rl/train.py \
 **사용된 USD 파일**
 
 * 로봇/그리퍼: `Download/e0509_with_rh.usd`
+<p align="center">
+  <img src="./img/e0509_with_rh.png" width="80%">
+</p>
+
 * 환경(Workspace): `Downloads/cerea_ws_Wls.usd`
+<p align="center">
+  <img src="./img/cerea_ws_Wls.png" width="80%">
+</p>
 
 **강화학습 환경 설정 코드**
 
