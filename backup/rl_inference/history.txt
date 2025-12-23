@@ -1,0 +1,1000 @@
+  263  ls
+  264  cd scripts/
+  265  ls
+  266  cd reinforcement_learning/
+  267  ls
+  268  cd skrl
+  269  code .
+  270  conda deactivate
+  271  conda create -n isaaclab python=3.10 -y
+  272  conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+  273  conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+  274  conda create -n isaaclab python=3.10 -y
+  275  conda activate isaaclab
+  276  pip install --upgrade pip
+  277  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+  278  cd ~
+  279  git clone https://github.com/isaac-sim/IsaacLab.git
+  280  cd IsaacLab
+  281  ./isaaclab.sh --install
+  282  ./isaaclab.sh -p source/standalone/demo/cartpole.py
+  283  history
+  284  ls
+  285  ./isaaclab.sh -p source/standalone/demo/cartpole.py
+  286  ./isaaclab.sh --install
+  287  ls
+  288  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task Isaac-Velocity-Flat-H1-v0 --headless
+  289  pip install --upgrade pip  
+  290  pip install 'isaacsim[all,extscache]==5.0' --extra-index-url https://pypi.nvidia.com  
+  291  pip install 'isaacsim[all,extscache]==5.0.0' --extra-index-url https://pypi.nvidia.com  
+  292  cd
+  293  conda create -n env_isaaclab python=3.11
+  294  conda activate env_isaaclab
+  295  pip install --upgrade pip
+  296  pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
+  297  pip install "isaacsim[all,extscache]==5.0.0" --extra-index-url https://pypi.nvidia.com
+  298  ls
+  299  git clone https://github.com/isaac-sim/IsaacLab.git  
+  300  sudo apt install cmake build-essential  
+  301  ./isaaclab.sh --install  # or "./isaaclab.sh -i"  
+  302  cd IsaacLab/
+  303  ./isaaclab.sh --install  # or "./isaaclab.sh -i"  
+  304  ./isaaclab.sh --install rl_games
+  305  ./isaaclab.sh -p scripts/tutorials/00_sim/create_empty.py  
+  306  conda deactivate
+  307  cd ../isaacsim
+  308  cd ..
+  309  ls
+  310  cd isaac-sim/
+  311  ./isaac-sim.sh
+  312  conda activate env_isaaclab
+  313  cd ../IsaacLab/
+  314  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Ant-v0
+  315  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py --task=Isaac-Ant-v0 --num_envs 5
+  316  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Ant-v0
+  317  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 --headless  --cfg_train max_epochs=500
+  318  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  319  bash Miniconda3-latest-Linux-x86_64.sh
+  320  source ~/.bashrc
+  321  conda create -n isaaclab python=3.10 -y
+  322  conda activate isaaclab
+  323  conda deactivate
+  324  conda create -n isaaclab python=3.10 -y
+  325  conda activate isaaclab
+  326  conda info --envs
+  327  python --version
+  328  python3 --version
+  329  terminator
+  330  cd ~/IsaacLab/source/isaaclab_assets/isaaclab_assets/robot/franka/
+  331  cd ~/IsaacLab/source/isaaclab_assets/isaaclab_assets/robot/
+  332  cd ~/IsaacLab/source/isaaclab_assets/isaaclab_assets/robot/conda deactivate
+  333  conda deactivate
+  334  cd ../isaac-sim/
+  335  ./isaac-sim.sh
+  336  cd ~/IsaacLab/
+  337  ls
+  338  cd scripts/
+  339  ls
+  340  cd reinforcement_learning/
+  341  ls
+  342  cd skrl/
+  343  ls
+  344  cd ..
+  345  cd rl_games/
+  346  ls
+  347  code .
+  348  ls
+  349  cd ~/isaac-sim/
+  350  ./isaac-sim.sh
+  351  cd src/
+  352  ls
+  353  cd source/
+  354  ls
+  355  cd isaaclab_tasks/
+  356  ls
+  357  cd isaaclab_tasks
+  358  ls
+  359  cd manager_based/
+  360  ls
+  361  cd manipulation/
+  362  ls
+  363  cd cabnet
+  364  cd cabinet/
+  365  ls
+  366  code .
+  367  vi /home/robot/xyz/usd/e0506.usd
+  368  cd ~/
+  369  cd Downloads/
+  370  ls
+  371  cp xyz.tar ../
+  372  conda deactivate
+  373  ls
+  374  mv xyz xyz_
+  375  tar xvf xyz.tar 
+  376  cd ../../../..
+  377  cd ..
+  378  ls
+  379  cd isaaclab_assets/
+  380  ls
+  381  cd isaaclab_assets
+  382  ls
+  383  cd robots/
+  384  ls
+  385  cd /home/robot/xyz/usd/xyz_kine.usd
+  386  cd /home/robot/xyz/usd/
+  387  ls
+  388  mv habeen_kine.usd e0509.usd
+  389  vi /home/robot/xyz/usd/e0506.usd
+  390  pwd
+  391  ls
+  392  pwd
+  393  conda deactivate
+  394  pwd
+  395  ls
+  396  code .
+  397  conda activate env_isaaclab
+  398  cd ~/isaac-sim/
+  399  ./isaac-sim.sh
+  400  conda deactivate
+  401  conda activate env_isaaclab
+  402  cd IsaacLab/
+  403  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  404  cd ..
+  405  cd isaac-sim/
+  406  ./isaac-sim.sh
+  407  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  408  cd ../IsaacLab/
+  409  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  410  conda deactivate
+  411  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  412  conda activate env_isaaclab
+  413  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  414  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 num_envs 5
+  415  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 num_envs=5
+  416  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  417  sudo reboot now
+  418  conda activate env_isaaclab
+  419  cd IsaacLab/
+  420  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  421  code .
+  422  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0
+  423  conda deactivate
+  424  cd ~/xyz
+  425  cd usd
+  426  ls
+  427  cd ../..
+  428  ls
+  429  rm -rdf xyz
+  430  ls
+  431  rm xyz.*
+  432  ls
+  433  cd Downloads/
+  434  ls
+  435  mv 'xyz(4).tar' ../
+  436  cd ..
+  437  ls
+  438  tar xvf 'xyz(4).tar' 
+  439  ls
+  440  rm 'xyz(4).tar' 
+  441  sudo find / -nanme franka_cabinet*
+  442  sudo find / -name franka_cabinet*
+  443  sudo find / -name franka_cabinet_task.py
+  444  sudo find / -name franka_cabinet_cfg.yaml
+  445  cd IsaacLab/
+  446  ls
+  447  sudo find / -name franka_cabinet_cfg.yaml
+  448  sudo find / -name rl_games_ppo_cfg.yaml
+  449  sudo find / -name skrl_ppo_cfg.yaml
+  450  sudo fine / -name franka_cabinet_env.py
+  451  sudo find / -name franka_cabinet_env.py
+  452  sudo reboot now
+  453  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  454  vi ros2_ws/
+  455  cd ros2_ws/
+  456  source ~/.bashrc
+  457  source ./install/setup.bash
+  458  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  459  ls
+  460  cd src
+  461  ls
+  462  cd doosan-robot2/
+  463  ls
+  464  cd ../..
+  465  colcon build --symlink-install
+  466  cd src
+  467  ls
+  468  cd ..
+  469  colcon build --symlink-install --packages-select dsr_msgs2
+  470  cd ~/ros2_ws
+  471  rm -rf build/dsr_msgs2 install/dsr_msgs2 log/dsr_msgs2
+  472  colcon build --symlink-install --packages-select dsr_msgs2
+  473  shutdown now
+  474  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+  475  source ./install/setup.bash
+  476  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+  477  colcon build --symlink-install --packages-select dsr_msgs2
+  478  colcon build --symlink-install
+  479  ros2 action send_goal /arm_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{trajectory: {
+  480      joint_names: ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6'],
+  481      points: [
+  482        {positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  483         time_from_start: {sec: 0}},
+  484        {positions: [0.5, -0.3, 0.4, 0.0, 0.2, 0.1],
+  485         time_from_start: {sec: 3}}
+  486      ]
+  487    }}"
+  488  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  489  source ./install/setup.bash
+  490  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  491  ros2 launch dsr_bringup2 dsr_bringup2_moveit.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  492  ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  493  ros2 launch dsr_bringup2 dsr_bringup2_moveit.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  494  history
+  495  cd ../isaac
+  496  ls
+  497  cd ..
+  498  ls
+  499  cd isaac-sim/
+  500  ./isaac-sim.sh
+  501  sudo reboot now
+  502  cd ros2_ws/
+  503  colcon build --symlink-install --packages-select dsr_msgs2
+  504  colcon build --symlink-install
+  505  colcon build --symlink-install --parallel-workers 1
+  506  rm -rf build/dsr_msgs2 install/dsr_msgs2 log/dsr_hardware2
+  507  colcon build --symlink-install --parallel-workers 1
+  508  rm -rf build/dsr_msgs2 install/dsr_msgs2 log/dsr_msgs2
+  509  rm -rf build/dsr_hardware2 install/dsr_hardware2 log/dsr_hardware2
+  510  colcon build --symlink-install --parallel-workers 1
+  511  colcon build --symlink-install --packages-select dsr_hardware2
+  512  sudo apt install ros-jazzy-ros2-control ros-jazzy-ros2-controllers
+  513  colcon build --symlink-install --packages-select dsr_hardware2
+  514  sudo apt install ros-jazzy-moveit-msgs ros-jazzy-moveit
+  515  colcon build --symlink-install --packages-select dsr_hardware2
+  516  sudo apt install libpoco-dev
+  517  colcon build --symlink-install --packages-select dsr_hardware2
+  518  ros2 action send_goal /arm_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{trajectory: {
+  519      joint_names: ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6'],
+  520      points: [
+  521        {positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  522         time_from_start: {sec: 0}},
+  523        {positions: [0.5, -0.3, 0.4, 0.0, 0.2, 0.1],
+  524         time_from_start: {sec: 3}}
+  525      ]
+  526    }}"
+  527  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  528  vi ~/.bashrc
+  529  source ~/.bashrc
+  530  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  531  cd ros2_ws/
+  532  colcon build --symlink-install --packages-select dsr_hardware2
+  533  colcon build --symlink-install
+  534  source ~/.bashrc
+  535  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  536  ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  537  vi ~/.bashrc
+  538  sudo reboot now
+  539  cd src
+  540  cd doosan-robot2/
+  541  ls
+  542  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+  543  ros2 launch dsr_control2 dsr_control2_robot.launch.py
+  544  cd ros2_ws/
+  545  source ~/.bashrc
+  546  source ./install/setup.bash
+  547  ros2 launch dsr_control2 dsr_control2_robot.launch.py
+  548  ros2 launch dsr_controller2 dsr_controller2_robot.launch.py
+  549  ros2 launch dsr_controller2 dsr_controller2.launch.py 
+  550  ping 127.0.0.1
+  551  reboot now
+  552  sudo reboot now
+  553  ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=e0509
+  554  ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=1234 model:=e0509
+  555  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+  556  conda deactivate
+  557  cd isaac-sim/
+  558  ./isaac-sim.sh
+  559  sudo shutdown now
+  560  ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12346 name:=dsr01 x:=0 y:=0
+  561  sudo reboot now
+  562  conda deactivate
+  563  conda create -n clip python=3.10 -y
+  564  conda activate clip
+  565  pwd
+  566  ls
+  567  cd xyz
+  568  ls
+  569  mkdir src
+  570  mv *.py src
+  571  ls
+  572  mv rh_p12_rn_d.usd ./src
+  573  mv usd src
+  574  cd rh rh src
+  575  ls
+  576  mv rh src
+  577  ls
+  578  cd src
+  579  ls
+  580  cd usd
+  581  ls
+  582  cd ../
+  583  ls
+  584  mv usd ../
+  585  mv rh_p12_rn_d.usd  ../
+  586  cd ..
+  587  ls
+  588  cd ../
+  589  ls
+  590  pwd
+  591  mkdir VLA
+  592  cd VLA
+  593  ls
+  594  $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+  595  $ pip install ftfy regex tqdm
+  596  $ pip install git+https://github.com/openai/CLIP.git
+  597  conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+  598  python --version
+  599  pip install git+https://github.com/openai/CLIP.git
+  600  cd ../../xyz
+  601  ls
+  602  cd src
+  603  ls
+  604  ros2 topic list
+  605  cd ~/e0509_ws/src
+  606  ls
+  607  cd standby/
+  608  ls
+  609  code .
+  610  pip install pyautogui
+  611  pip3 install keyboard
+  612  sudo pip3 install pyautogui
+  613  sudo pip3 install pyautogui --break-system-packages
+  614  sudo pip3 install keyboard --break-system-packages
+  615  ros2 topic list
+  616  pwd
+  617  ls
+  618  cd e0509_ws/src
+  619  ls
+  620  ros2 pkg create --build-type ament_python stanby
+  621  ros2 pkg create --build-type ament_python standby
+  622  ls
+  623  rm -rdf stanby/
+  624  cd standby/standby/
+  625  vi standby.py
+  626  cd ..
+  627  ls
+  628  vi setup.py
+  629  cd standby/
+  630  ls
+  631  mv standby.py float_publisher.py
+  632  cd ../..
+  633  cd ..
+  634  colcon build --symlink-install
+  635  colcon build --symlink-install --packages-select standby
+  636  colcon build --symlink-install
+  637  ls
+  638  rm -rdf dsr_msgs2/
+  639  rm -rdf build/ install/ log/
+  640  colcon build --symlink-install
+  641  source ./install/setup.bash
+  642  ros2 run standby float_publisher 
+  643  ls
+  644  cd src
+  645  ls
+  646  cd standby/standby/
+  647  ls
+  648  vi float_publisher.py 
+  649  cd ../../../
+  650  colcon build --symlink-install
+  651  source ./install/setup.bash
+  652  ros2 run standby float_publisher 
+  653  pip install keyboard
+  654  python3 -m pip install keyboard
+  655  ros2 run standby float_publisher 
+  656  su
+  657  ros2 run standby float_publisher 
+  658  sudo ros2 run standby float_publisher 
+  659  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=virtual host:=127.0.0.1 port:=12345 model:=m1013
+  660  ros2 launch dsr_bringup2 dsr_bringup2_spawn_on_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12347 name:=dsr02 x:=2 y:=2 model:=e0509
+  661  cd ~/isaac-sim/
+  662  ./isaac-sim.sh
+  663  sudo reboot now
+  664  ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12346 name:=dsr01 x:=0 y:=0
+  665  ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12346 name:=dsr01 x:=0 y:=0 model:=e0509
+  666  conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+  667  cd ~/xyz
+  668  ls
+  669  cd usd
+  670  ls
+  671  cd src
+  672  cd standby/standby/
+  673  code .
+  674  ls
+  675  cd ~/
+  676  ls
+  677  cd isaac-sim/
+  678  ./isaac-sim.sh
+  679  history
+  680  history | grep python
+  681  cd ..
+  682  cd ~/isaac-sim/
+  683  ls
+  684  ./isaac-sim.sh
+  685  pip install keyboard
+  686  apt install python3-keyboard
+  687  sudo apt install python3-keyboard
+  688  cd e0509_ws/
+  689  colcon build --symlink-install
+  690  source ./install/setup.bash
+  691  ros2 run standby float_publisher 
+  692  pip install keyboard
+  693  source /opt/ros/jazzy/setup.bash
+  694  su
+  695  sudo passwd
+  696  su
+  697  ros2 topic liswt
+  698  ros2 topic list
+  699  sudo pip remove keyboard
+  700  colcon build --symlink-install
+  701  sudo pip uninstall keyboard
+  702  python3 -m venv ~/venv
+  703  source ~/venv/bin/activate
+  704  history
+  705  conda env list
+  706  conda env list ac
+  707  conda activate env_isaaclab
+  708  conda deactivate
+  709  conda activate isaaclab
+  710  pwd
+  711  cd e0509_ws/
+  712  source ./install/setup.bash
+  713  ros2 run standby float_publisher 
+  714  cd ~/isaac-sim/
+  715  ./python.sh
+  716  ls
+  717  cd ~/
+  718  ls
+  719  cd e0509_ws/
+  720  ros2 run standby float_publisher 
+  721  sudo find / -name isaac_sim*
+  722  sudo find / -name isaac_sim-20*
+  723  echo PYTHONPATH
+  724  echo $PYTHONPATH
+  725  sudo find / -name ov
+  726  cd /home/robot/.local/share/ov
+  727  ls
+  728  cd data
+  729  ls
+  730  cd exts/
+  731  ls
+  732  cd v2
+  733  ls
+  734  cd ../../..
+  735  ls
+  736  cd ~/e0509_ws/src
+  737  ls
+  738  cd standby/standby/
+  739  ls
+  740  cp float_publisher.py ~/isaac-sim/
+  741  cd ~/isaac-sim
+  742  ls
+  743  ./python.sh float_publisher.py 
+  744  ./post_install.sh 
+  745  ls
+  746  ./python.sh float_publisher.py 
+  747  ls
+  748  vi sample_isaacsim.py
+  749  ./python.sh sample_isaacsim.py 
+  750  ./python.sh -c "import omni; print('Isaac Sim Python OK')"
+  751  ls
+  752  cd python_packages/
+  753  ls
+  754  cd isaacsim/
+  755  ls
+  756  cd ../..
+  757  ls
+  758  ./python.sh ./sample_isaacsim.py 
+  759  ./python.sh -c "import omni; print('Isaac Sim Python OK')"
+  760  ls
+  761  ./isaac-sim.sh run_tests.py 
+  762  ls
+  763  code .
+  764  ls
+  765  sudo find / -name isaacsim_test.py
+  766  ls
+  767  python isaacsim_test.py 
+  768  conda deactivate
+  769  ls
+  770  ./python.sh isaacsim_test.py 
+  771  ls
+  772  history
+  773  sudo pip3 uninstall keyboard --break-system-packages
+  774  sudo pip3 uninstall pyautogui --break-system-packages
+  775  sudo reboot now
+  776  history | grep python
+  777  history > history.txt
+  778  code .
+  779  python3 isaacsim_test.py 
+  780  code .
+  781  python3 isaacsim_test.py 
+  782  python3 run_tests.py 
+  783  python3 isaacsim_test.py 
+  784  cd isaac-sim/
+  785  ./python.sh standalone_examples/tutorials/getting_started.py
+  786  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+  787  sudo find / -name isaacsim_test.py
+  788  ./isaac-sim.sh
+  789  sudo find / -name *.py
+  790  sudo find -name / *.py
+  791  sudo find / -name *.py
+  792  ls
+  793  code .
+  794  cd ~/ros2_ws/src/doosan-robot2/
+  795  ls
+  796  cd dsr_example2/
+  797  ls
+  798  tar cvf dsr_example_org.tar dsr_example/
+  799  ls
+  800  rm -rdf dsr_example
+  801  tar xvf dsr_example_org.tar 
+  802  cd ../../..
+  803  ls
+  804  colcon build --symlink-install
+  805  sudo shutdown now
+  806  nvidia-smi
+  807  cd IsaacLab/
+  808  ls
+  809  code .
+  810  cd src/doosan-robot2/
+  811  cd dsr_example2/
+  812  ls
+  813  cd dsr_example/
+  814  ls
+  815  cd dsr_example/
+  816  ls
+  817  cd isaacsim/
+  818  ls
+  819  code .
+  820  cd ../..
+  821  ls
+  822  code .
+  823  cd dsr_example/
+  824  ls
+  825  cd isaacsim/
+  826  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+  827  ros2 run dsr_example pick_and_place 
+  828  ros2 run dsr_example2 pick_and_place 
+  829  history
+  830  cd ~
+  831  cd rl_inference/
+  832  ls
+  833  source ~/ros2_ws/install/setup.bash
+  834  python3 play_franka_cabinet_real.py \  --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth
+  835  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --cpu
+  836  cd ..
+  837  conda env_isaaclab activate
+  838  python3 --version
+  839  export PYTHONPATH="/home/robot/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages:$PYTHONPATH"
+  840  cd rl_inference/
+  841  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth
+  842  ros2 run dsr_example example_gripper 
+  843  ros2 run dsr_example dance
+  844  pip install numpy
+  845  ros2 run dsr_example dance
+  846  pip install --no-cache-dir --force-reinstall numpy
+  847  cd ~/ros2_ws/
+  848  colcon build --symlink-install
+  849  colcon build --symlink-install --parallel-workers 1
+  850  colcon build --no-symlink-install --cmake-args -DBUILD_TESTING=OFF
+  851  colcon build --no-symlink-install
+  852  ls
+  853  rm -rdf build/ install/ log/
+  854  colcon build --symlink-install
+  855  colcon build --symlink-install --parallel-workers 1
+  856  pip install numpy
+  857  sudo apt install python3-numpy
+  858  colcon build --symlink-install --parallel-workers 1
+  859  conda deactivate
+  860  sudo apt install python3-numpy python3-dev
+  861  colcon build --no-symlink-install
+  862  colcon build 
+  863  colcon build --symlink-install --packages-select dsr_example
+  864  colcon build --no-symlink-install --packages-select dsr_example
+  865  colcon build --no-symlink-install
+  866  colcon build
+  867  ls
+  868  rm -rdf build/ install/ log/
+  869  colcon build
+  870  colcon build --packages-select dsr_msgs2
+  871  conda update numpy
+  872  pip install --upgrade numpy
+  873  pip3 install --upgrade numpy
+  874  colcon build --packages-select dsr_msgs2
+  875  sudo apt update
+  876  sudo apt install python3-numpy
+  877  colcon build --packages-select dsr_msgs2
+  878  vi numpy.py
+  879  python3 numpy.py 
+  880  vi numpy.py
+  881  python3 numpy.py 
+  882  rm -rf /home/robot/ros2_ws/__pycache__
+  883  python3 numpy.py 
+  884  mv /home/robot/ros2_ws/numpy.py /home/robot/ros2_ws/check_numpy_version.py
+  885  rm -rf /home/robot/ros2_ws/__pycache__
+  886  python3 check_numpy_version.py
+  887  l
+  888  ls
+  889  python3 check_numpy_version.py 
+  890  # Activate the Conda env
+  891  conda activate env_isaaclab
+  892  # Now run your script (or any Python command)
+  893  cd ~/ros2_ws
+  894  python check_numpy_version.py
+  895  colcon build --packages-select dsr_msgs2
+  896  cd ~/ros2_ws/src/doosan-robot2/
+  897  ls
+  898  cd dsr_example2/
+  899  ls
+  900  cd dsr_example/
+  901  ls
+  902  cd dsr_example/
+  903  ls
+  904  cd simple/
+  905  ls
+  906  cd ..
+  907  ls
+  908  cd demo/
+  909  ls
+  910  cd ..
+  911  ls
+  912  cd simple/
+  913  ls
+  914  cd ../..
+  915  ls
+  916  vi setup.py
+  917  cd ../..
+  918  ls
+  919  cd dsr_msgs2/
+  920  ls
+  921  vi CMakeLists.txt 
+  922  cd ..
+  923  ls
+  924  cd ../..
+  925  ls
+  926  vi setup.py
+  927  cd ../..
+  928  cd dsr_msgs2/
+  929  ls
+  930  vi CMakeLists.txt 
+  931  cd ../dsr_example2/
+  932  ls
+  933  cd dsr_example/
+  934  ls
+  935  vi setup.py
+  936  ls
+  937  cd dsr_example/
+  938  ls
+  939  cd demo/
+  940  cd ../simple/
+  941  ls
+  942  python3 gripper_drl_controller.py 
+  943  ros2 run dsr_example gripper_control 
+  944  ros2 run dsr_example example_gripper 
+  945  cd ../..
+  946  colcon build --packages-select dsr_msgs2
+  947  colcon build --packages-select dsr_example2
+  948  colcon build --symlink-install
+  949  source ~/ros2_ws/install/setup.bash
+  950  ros2 run dsr_example isaac_e0509_gripper 
+  951  colcon build --symlink-install
+  952  source ~/ros2_ws/install/setup.bash
+  953  ros2 run dsr_example gripper_test 
+  954  ros2 run dsr_example dance 
+  955  sudo shutdwon now
+  956  sudo shutdown now
+  957  cd ~/ros2_ws/src/doosan-robot2/
+  958  cd dsr_example2/
+  959  ls
+  960  cd dsr_example/
+  961  ls
+  962  cd dsr_example/
+  963  ls
+  964  cd simple/
+  965  ls
+  966  cd ../isaacsim/
+  967  ls
+  968  cd ..
+  969  code .
+  970  cd ../
+  971  ls
+  972  code .
+  973  cd
+  974  ls
+  975  cd isaac-sim/
+  976  ls
+  977  ./isaac-sim.sh
+  978  ros2 topic list
+  979  nvidia-smi
+  980  conda env list
+  981  cd ..
+  982  code .
+  983  python3 --version
+  984  which python3
+  985  which ros2
+  986  python3 - <<EOF
+  987  import torch
+  988  print("PyTorch:", torch.__version__)
+  989  print("CUDA available:", torch.cuda.is_available())
+  990  EOF
+  991  nvidia=smi
+  992  nvidia-smi
+  993  conda create -n rl_inference python=3.12 -y
+  994  conda activate franka_inference
+  995  conda activate rl_inference
+  996  python --version
+  997  python3 - <<EOF
+  998  import torch
+  999  print("PyTorch:", torch.__version__)
+ 1000  print("CUDA available:", torch.cuda.is_available()) 
+ 1001  EOF
+ 1002  pip uninstall torch torchvision torchaudio -y
+ 1003  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+ 1004  python3 -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
+ 1005  cd rl_inference/
+ 1006  ls
+ 1007  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth
+ 1008  pip install pyyaml
+ 1009  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth
+ 1010  code .
+ 1011  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --max-steps 600
+ 1012  python3 play_e0509_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --max-steps 600
+ 1013  clear
+ 1014  python3 play_e0509_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --max-steps 600
+ 1015  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --max-steps 600
+ 1016  python3 play_e0509_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --max-steps 600
+ 1017  cd ~/ros2_ws/
+ 1018  ls
+ 1019  cd src
+ 1020  ls
+ 1021  cd doosan-robot2/
+ 1022  ls
+ 1023  sudo find / -name isaacsim
+ 1024  cd
+ 1025  cd ros2_ws/
+ 1026  source install/setup.bash 
+ 1027  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+ 1028  history
+ 1029  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+ 1030  colcon build --symlink-install
+ 1031  colcon build --symlink-install --parallel-workers 1
+ 1032  source install/setup.bash 
+ 1033  ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.52 port:=12345 model:=e0509
+ 1034  cd ros2_ws/
+ 1035  cd src/doosan-robot2/
+ 1036  ls
+ 1037  cd dsr_example2/
+ 1038  ls
+ 1039  cd dsr_example/
+ 1040  ls
+ 1041  cd dsr_example/
+ 1042  ks
+ 1043  s
+ 1044  ls
+ 1045  cd demo
+ 1046  ls
+ 1047  cd ..
+ 1048  ls
+ 1049  cd is
+ 1050  cd simple/
+ 1051  ls
+ 1052  history
+ 1053  ls
+ 1054  cd ..
+ 1055  ls
+ 1056  cd demo
+ 1057  ls
+ 1058  cd ..
+ 1059  ls
+ 1060  cd ..
+ 1061  ls
+ 1062  cd ..
+ 1063  ls
+ 1064  cd ..
+ 1065  ls
+ 1066  find / -name issacsim
+ 1067  ls
+ 1068  cd dsr_example2/
+ 1069  ls
+ 1070  cd dsr_example/
+ 1071  ls
+ 1072  cd dsr_example/
+ 1073  ls
+ 1074  cd demo
+ 1075  ls
+ 1076  cd ../..
+ 1077  ls
+ 1078  cd ..
+ 1079  ls
+ 1080  mv dsr_example dsr_example__
+ 1081  tar xvf dsr_example_org.tar 
+ 1082  ls
+ 1083  cd dsr_example
+ 1084  ls
+ 1085  cd dsr_example/
+ 1086  ls
+ 1087  cd ../
+ 1088  ls
+ 1089  cd ..
+ 1090  ls
+ 1091  rm -rdf dsr_example
+ 1092  ls
+ 1093  unzip dsr_example.zip 
+ 1094  cd
+ 1095  cd ros2_ws/
+ 1096  source install/setup.bash 
+ 1097  colcon build
+ 1098  source install/setup.bash 
+ 1099  ros2 run dsr_example pick_test 
+ 1100  ros2 run dsr_example example_gripper 
+ 1101  colcon build
+ 1102  source install/setup.bash 
+ 1103  ros2 run dsr_example example_gripper 
+ 1104  history grep|bring
+ 1105  history grep | bring
+ 1106  history grep | 192
+ 1107  history
+ 1108  colcon build
+ 1109  source install/setup.bash 
+ 1110  ros2 run dsr_example pick_test 
+ 1111  ros2 run dsr_example example_gripper 
+ 1112  ls
+ 1113  colcon build
+ 1114  colcon build --symlink-install
+ 1115  ros2 run dsr_example pick_and_place 
+ 1116  colcon build --symlink-install
+ 1117  ros2 run dsr_example pick_and_place 
+ 1118  colcon build --symlink-install
+ 1119  source install/setup.bash 
+ 1120  ros2 run dsr_example create_cube 
+ 1121  cd ~/isaac-sim/
+ 1122  ./python.sh ~/ros2_ws/src/doosan-robot2/dsr_example2/dsr_example/dsr_example/isaacsim/create_cube.py
+ 1123  ls
+ 1124  cd standalone_examples/
+ 1125  ls
+ 1126  cd tutorials/
+ 1127  ls
+ 1128  ~/isaac-sim/python.sh getting_started.py
+ 1129  code .
+ 1130  cd ~/isaac-sim/
+ 1131  ./python.sh ~/ros2_ws/src/doosan-robot2/dsr_example2/dsr_example/dsr_example/isaacsim/create_cube.py
+ 1132  ./isaac-sim.sh
+ 1133  history
+ 1134  ros2 run dsr_example pick_and_place 
+ 1135  conda activate env_isaaclab 
+ 1136  cd ~/IsaacLab
+ 1137  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 --headless  --cfg_train max_epochs=500
+ 1138  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 --headless  --num_envs 64 max_epochs=500
+ 1139  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 --headless  --num_envs 64 
+ 1140  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 64 
+ 1141  ls
+ 1142  cd logs
+ 1143  ls
+ 1144  cd rl_games/
+ 1145  ls
+ 1146  cd franka_cabinet_direct/
+ 1147  ls
+ 1148  cd 2025-11-20_08-58-42
+ 1149  ls
+ 1150  cd nn
+ 1151  ls
+ 1152  cd ~/IsaacLab/
+ 1153  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 10 --checkpoint  ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nnlast_franka_cabinet_direct_ep_200_rew_1250.4775.pth
+ 1154  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 10 --checkpoint  ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth 
+ 1155  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 1 ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_200_rew_1250.4775.pth
+ 1156  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 1 --checkpoint  ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth 
+ 1157  cd ..
+ 1158  cd rl_inference/
+ 1159  ls
+ 1160  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth
+ 1161  python3 --version
+ 1162  which python3
+ 1163  conda info
+ 1164  export PYTHONPATH="/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/local/lib/python3.12/dist-packages:$PYTHONPATH"
+ 1165  source ~/ros2_ws/install/setup.bash
+ 1166  python3 -c "import rclpy; print('rclpy OK')"
+ 1167  python3 -c "import torch; print('torch version:', torch.__version__, 'CUDA:', torch.cuda.is_available())"
+ 1168  ls
+ 1169  export PYTHONPATH="/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/local/lib/python3.12/dist-packages:$PYTHONPATH"
+ 1170  source ~/ros2_ws/install/setup.bash
+ 1171  python3 -c "import rclpy, torch, numpy; print('모두 성공! torch:', torch.__version__, 'CUDA:', torch.cuda.is_available())"
+ 1172  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth
+ 1173  python3 - <<EOF
+ 1174  import torch
+ 1175  print("PyTorch:", torch.__version__)
+ 1176  print("CUDA available:", torch.cuda.is_available())
+ 1177  EOF
+ 1178  cd ..
+ 1179  cd IsaacLab
+ 1180  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 1 --checkpoint  ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth 
+ 1181  sudo shutdown now
+ 1182  ~/isaac-sim/python.sh getting_started.py
+ 1183  cd ~/isaac-sim/
+ 1184  ls
+ 1185  cd ~/isaac-sim/standalone_examples/tutorials
+ 1186  ~/isaac-sim/python.sh getting_started.py
+ 1187  cd
+ 1188  cd isaac
+ 1189  cd isaac-sim/
+ 1190  ./isaac-sim.sh 
+ 1191  cd ~/IsaacLab/
+ 1192  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 1 --checkpoint  ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth 
+ 1193  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 10 --checkpoint  ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nnlast_franka_cabinet_direct_ep_200_rew_1250.4775.pth
+ 1194  conda activate env_isaaclab 
+ 1195  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 10 --checkpoint  ~/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nnlast_franka_cabinet_direct_ep_200_rew_1250.4775.pth
+ 1196  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Ant-v0
+ 1197  ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Franka-Cabinet-Direct-v0 --headless
+ 1198  code .
+ 1199  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py     --task Isaac-E0509-Random-Grasp-Direct-v0     --num_envs 4
+ 1200  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py     --task Isaac-E0509-Random-Grasp-Direct-v0     --num_envs 1
+ 1201  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py     --task Isaac-E0509-Random-Grasp-Direct-v0     --num_envs 4
+ 1202  cd ~/rl_inference
+ 1203  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --max-steps 60
+ 1204  history
+ 1205  cd
+ 1206  cd ros2_ws/
+ 1207  source install/setup.bash 
+ 1208  cd ..
+ 1209  cd isaac-sim/
+ 1210  ./isaac-sim.sh
+ 1211  conda activate env_isaaclab
+ 1212  cd ~/IsaacLab
+ 1213  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py     --task Isaac-E0509-Random-Grasp-Direct-v0     --num_envs 4
+ 1214  sudo find / -name hello_world.py
+ 1215  cd standalone_examples/api/isaacsim.simulation_app/
+ 1216  ls
+ 1217  python3 hello_world.py 
+ 1218  cd ../../..
+ 1219  ls
+ 1220  ./python.sh ./standalone_examples/api/isaacsim.simulation_app/hello_world.py 
+ 1221  ./python.sh ./standalone_examples/tutorials/getting_started_robot.py 
+ 1222  ls
+ 1223  ./jupyter_notebook.sh 
+ 1224  cd standalone_examples/
+ 1225  ls
+ 1226  cd tutorials/
+ 1227  ls
+ 1228  vi getting_started_robot.py 
+ 1229  code .
+ 1230  history
+ 1231  sudo reboot now
+ 1232  ls
+ 1233  history
+ 1234  cd isaac-sim/
+ 1235  ls
+ 1236  ./isaac-sim.sh
+ 1237  cd scripts/
+ 1238  code .
+ 1239  conda activate env_isaaclab
+ 1240  cd environments/
+ 1241  cd ../..
+ 1242  ls
+ 1243  cd scripts/environments/
+ 1244  ls
+ 1245  python3 list_envs.py 
+ 1246  cd ../..
+ 1247  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_08-58-42/nn/last_franka_cabinet_direct_ep_500_rew_1296.2949.pth --max-steps 600
+ 1248  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_10-28-56/nn/last_franka_cabinet_direct_ep_1500_rew__1217.4408.pth --max-steps 600
+ 1249  ls
+ 1250  sudo find / -name rl_inference
+ 1251  cd ~/rl_inference/
+ 1252  ls
+ 1253  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_10-28-56/nn/last_franka_cabinet_direct_ep_1500_rew__1217.4408.pth --max-steps 600
+ 1254  conda deactivate
+ 1255  python3 play_franka_cabinet_real.py --checkpoint /home/robot/IsaacLab/logs/rl_games/franka_cabinet_direct/2025-11-20_10-28-56/nn/last_franka_cabinet_direct_ep_1500_rew_1217.4408.pth --max-steps 600
+ 1256  nvcc --version
+ 1257  nvcc --V
+ 1258  nvcc -V
+ 1259  nvidia-smi
+ 1260  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+ 1261  code .
+ 1262  history > history.txt
