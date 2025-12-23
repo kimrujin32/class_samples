@@ -1,1 +1,100 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ROS2 PyQt Control Panel</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+
+    <!-- LEFT : Image View -->
+    <item>
+     <widget class="QLabel" name="label_1">
+      <property name="minimumSize">
+       <size>
+        <width>640</width>
+        <height>480</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string>background-color: black;</string>
+      </property>
+      <property name="text">
+       <string>Camera Image</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+
+    <!-- RIGHT : Control Panel -->
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+
+      <!-- Conveyor Buttons -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_buttons">
+        <item>
+         <widget class="QPushButton" name="btn_conveyorStart">
+          <property name="text">
+           <string>Conveyor Start</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_conveyorStop">
+          <property name="text">
+           <string>Conveyor Stop</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+
+      <!-- Job Selection -->
+      <item>
+       <widget class="QComboBox" name="comboBox"/>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="btn_job">
+        <property name="text">
+         <string>Send Job</string>
+        </property>
+       </widget>
+      </item>
+
+      <!-- Log Output -->
+      <item>
+       <widget class="QTextEdit" name="edit_1">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+
+     </layout>
+    </item>
+
+   </layout>
+  </widget>
+
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
